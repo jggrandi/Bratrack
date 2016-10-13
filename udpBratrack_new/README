@@ -1,0 +1,18 @@
+Bratrack UDP Receiver Class:
+
+BraTrackUDP.cpp
+BraTrackUDP.h
+
+Examples:
+udpBratrack_receiver.c: output the Bratrack's raw data received via UDP protocol
+To build this example just copy the Makefile_udpBratrack to Makefile
+"cp Makefile_udpBratrack Makefile"
+
+BratrackTest.cpp: map the position and rotation of artifacts into 3D opengl environment.
+To build this example just copy the Makefile_BratrackOpenGL to Makefile
+"cp Makefile_BratrackOpenGL Makefile"
+
+udp-recv.c: same as udpBratrack_receiver.c but doesn't uses the BraTrackUDP class.
+
+
+
